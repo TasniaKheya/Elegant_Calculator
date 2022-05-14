@@ -3,11 +3,13 @@ package NewBranch;
 public class branching {
     String name,id;
     float cgpa;
+    String number;
 
-    public branching(String name, String id, float cgpa) {
+    public branching(String name, String id, float cgpa, String number) {
         this.name = name;
         this.id = id;
         this.cgpa = cgpa;
+        this.number = number;
     }
 
     public String getName() {
@@ -32,5 +34,13 @@ public class branching {
 
     public void setCgpa(float cgpa) {
         this.cgpa = cgpa;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
     }
 }
