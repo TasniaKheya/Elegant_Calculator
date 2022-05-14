@@ -3,6 +3,7 @@ package NewBranch;
 public class branching {
     String name, id;
     float cgpa;
+
     double income;
 
     public branching(String name, String id, float cgpa, double income) {
@@ -10,6 +11,7 @@ public class branching {
         this.id = id;
         this.cgpa = cgpa;
         this.income = income;
+  
     }
 
     public String getName() {
@@ -44,3 +46,6 @@ public class branching {
         this.income = income;
     }
 }
+   
+}
+
